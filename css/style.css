@@ -1,4 +1,4 @@
-/* Universal styles */
+/* Stili universali */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -11,7 +11,19 @@ header, main, footer {
     color: white;
 }
 
+
+/* Stili celle */
 #container {
-    height: 100vh;
-    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+.cella {
+    width: 30vw;
+    height: 30vw;
+    border: 2px solid gray;
+    background-color: white;
+    color: black;
+    margin-top: 1rem;
+}
+
