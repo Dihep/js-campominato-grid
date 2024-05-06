@@ -30,3 +30,7 @@ header, main, footer {
     padding-top: calc((30vw - 2rem) / 2);
 }
 
+/* Stili celle cliccate */
+.clicked {
+    background-color: red;
+}
