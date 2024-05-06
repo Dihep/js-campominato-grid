@@ -1,6 +1,6 @@
 // Creazione griglia
 const container = document.getElementById("container");
-for (let i = 0; i < 9; i++) {
+for (let i = 0; i < 100; i++) {
     //Creazione nuova cella
     let cella = document.createElement("div");
     //Stilizzazione cella
