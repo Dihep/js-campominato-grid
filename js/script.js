@@ -6,11 +6,7 @@ for (let i = 0; i < 9; i++) {
     //Stilizzazione cella
     impostaCella(cella, i);
     //Evento click cella
-    cella.addEventListener("click", function () {
-        numCella = this.innerText;
-        console.log("Click su cella ", numCella);
-        this.classList.add("clicked");
-    });
+    cella.addEventListener("click", clickCella);
     //Aggiunta cella alla griglia
     container.append(cella);
     console.log(`cella ${i + 1} creata.`);
@@ -24,10 +20,8 @@ function impostaCella(cella, i) {
     return(cella);
 }
 
-/*
 function clickCella() {
     numCella = this.innerText;
     console.log("Click su cella ", numCella);
     this.classList.add("clicked");
 }
-*/
