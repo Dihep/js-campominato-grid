@@ -12,7 +12,7 @@ header, main, footer {
 }
 
 
-/* Stili celle */
+/* Stili griglia */
 #container {
     display: flex;
     flex-wrap: wrap;
