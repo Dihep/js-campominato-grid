@@ -25,5 +25,8 @@ header, main, footer {
     background-color: white;
     color: black;
     margin-top: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: calc((30vw - 2rem) / 2);
 }
 
